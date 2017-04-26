@@ -31,14 +31,13 @@ body{
   margin-right: .625rem;
 }
 
-.fa.fa-search{
-
-}
-
 .bun{
   padding: .5rem;
   border-radius: 1.25rem;
   text-align: center;
   background-color: rgb(255, 102, 204);
+}
 
+.titlerow{
+  background-color: rgb(104, 0, 255);
 }
