@@ -6,10 +6,19 @@ html{
 }
 
 body{
+  min-width: 570px;
+  font-family: "Work Sans", sans-serif;
   background-color: rgb(35, 2, 63);
+  color: #4a4a4a;
+}
+
+.header{
+  padding: 2.75rem 0;
 }
 
 .title{
+  margin-top: 0;
+  margin-bottom: 0;
   font-family: Righteous;
   font-size: 2.5rem;
   color: rgb(255, 0, 171);
@@ -17,18 +26,19 @@ body{
 
 .searchtext{
   font-size: 1.5rem;
-  border-radius: 2rem;
+  border-radius: 1.25rem;
   background-color: rbb(191, 191, 191);
+  margin-right: .625rem;
 }
 
 .fa.fa-search{
-    font-size: 2.5rem;
+
 }
 
 .bun{
-  font-size: 2.5rem;
-  border-radius: 1rem;
-  font-size: 14px;
-  background-color: rgb(255, 102, 204);
+  padding: .5rem;
+  border-radius: 1.25rem;
   text-align: center;
+  background-color: rgb(255, 102, 204);
+
 }
